@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+faiss-cpu
+numpy
+torch
+transformers
+optimum
+optimum-intel
+openvino-genai
+langchain

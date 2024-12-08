@@ -41,3 +41,21 @@ Run the Streamlit application:
 ``` bash
 streamlit run openvino.py
 ```
+
+## Docker Instructions
+
+### Build Docker Image
+
+To build the Docker image, run the following command in the project directory:
+
+```bash
+docker build -t pdf-rag-system .
+```
+
+### Run Docker Container
+
+To run the Docker container, use the following command:
+
+```bash
+docker run -p 8501:8501 pdf-rag-system
+```
